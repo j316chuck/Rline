@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.com/j316chuck/Rline.svg?branch=master)](https://travis-ci.com/j316chuck/Rline)
 # Rline
 R wrapper package around the LINE algorithm for network embedding. Original Line algorithm can be found at https://github.com/tangjianpku/LINE. This package wraps the four original LINE algorithms reconstruct, line, concatenate, and normalize in R. Please reference the LINE Algorithm for more specifics on the algorithm 
 

@@ -10,5 +10,4 @@ before_install:
     - sudo apt-get install libgsl0ldbl
     - sudo apt-get install libgsl2
     - sudo apt-get install gsl-bin
-    - sudo apt-get install libgsl0-dev
  

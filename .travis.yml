@@ -5,5 +5,8 @@ sudo: false
 cache: packages
 os:  osx
 warnings_are_errors: false
+os:  linux
 before_install:
-    - brew install gsl 
+    - apt-get install libgsl0ldbl gsl-bin libgsl0-dev
+warnings_are_errors: false
+ 

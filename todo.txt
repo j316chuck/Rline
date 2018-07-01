@@ -1,0 +1,4 @@
+1. finish up travis 20 min with linux
+2. read up and finish github 25 min + test 5 min
+3. do cran submission 20 min
+4. write email 20 min. 

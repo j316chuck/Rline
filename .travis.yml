@@ -3,11 +3,8 @@
 language: R
 sudo: true
 cache: packages
-warnings_are_errors: false
-os:  linux
+os:  osx
 before_install:
-    - sudo apt-get update
-    - sudo apt-get install libgsl0ldbl
-    - sudo apt-get install libgsl2
-    - sudo apt-get install gsl-bin
+    -brew install gsl
+warnings_are_errors: false
  

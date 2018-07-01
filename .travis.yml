@@ -4,5 +4,6 @@ language: R
 sudo: false
 cache: packages
 os:  osx
+warnings_are_errors: false
 before_install:
     - brew install gsl 

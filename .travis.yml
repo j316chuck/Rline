@@ -1,11 +1,10 @@
 # R for travis: see documentation at https://docs.travis-ci.com/user/languages/r
 
 language: R
-sudo: false
+sudo: true
 cache: packages
 warnings_are_errors: false
 os:  linux
 before_install:
-    - apt-get install libgsl0ldbl gsl-bin libgsl0-dev
-warnings_are_errors: false
+    - sudo apt-get install libgsl0ldbl gsl-bin libgsl0-dev
  
